@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+  --peach: #fef3ef;
+  --accent: #ef4a25;
+  --dark: #1c1c1c;
+}
+
+body {
+  @apply bg-peach text-dark;
+}
+
+/* if custom utilities throw errors, use actual CSS variables as fallback */
+.bg-peach { background-color: var(--peach); }
+.text-accent { color: var(--accent); }
+.bg-accent { background-color: var(--accent); }
+.text-dark { color: var(--dark); }
