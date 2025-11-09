@@ -1,0 +1,48 @@
+{
+	"info": {
+		"_postman_id": "24928fd4-741c-4e55-b63c-3b7fd9b37824",
+		"name": "Vfilms API Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "49913490",
+		"_collection_link": "https://sk2482020-3040290.postman.co/workspace/Subodh-Kumar's-Workspace~89bcec71-bcac-45d0-8368-482796085fdb/collection/49913490-24928fd4-741c-4e55-b63c-3b7fd9b37824?action=share&source=collection_link&creator=49913490"
+	},
+	"item": [
+		{
+			"name": " https://vernanbackend.ezlab.in/api/contact-us/",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"name\": \"Test user\",\r\n  \"email\": \"testuser@gmail.com\",\r\n  \"phone\": \"908765498\",\r\n  \"message\": \"This is a message\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://vernanbackend.ezlab.in/api/contact-us/",
+					"protocol": "https",
+					"host": [
+						"vernanbackend",
+						"ezlab",
+						"in"
+					],
+					"path": [
+						"api",
+						"contact-us",
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
