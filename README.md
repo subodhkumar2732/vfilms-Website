@@ -1,16 +1,56 @@
-# React + Vite
+# 🎬 VFilms Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+VFilms is a modern, responsive web application built using **React + Vite + TailwindCSS**, designed from a **Figma layout**.  
+It showcases various sections like *Hero*, *About Us*, *Services*, *Portfolio*, and *Contact* — all styled for pixel-perfect precision.
 
-Currently, two official plugins are available:
+This project also includes a **working Contact Form API integration** and a **Postman dump** for backend validation.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🚀 Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+✅ Pixel-perfect layout based on Figma design  
+✅ Responsive UI built using **Tailwind CSS**  
+✅ Modular React components for easy maintenance  
+✅ Navigation with **React Router DOM**  
+✅ Contact Form integrated with backend API (`POST` request)  
+✅ Validation (no empty fields, proper email format)  
+✅ Postman API dump for verification  
+✅ Ready for deployment (Vite + Tailwind setup)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🧩 Tech Stack
+
+| Category | Technology |
+|-----------|-------------|
+| **Frontend Framework** | React (Vite) |
+| **Styling** | Tailwind CSS |
+| **Routing** | React Router DOM |
+| **Package Manager** | npm / pnpm |
+| **API Testing** | Postman |
+| **Version Control** | Git + GitHub |
+
+---
+
+
+---
+
+## 🧠 API Integration
+
+**Contact Form API Endpoint:**
+
+
+**Request Method:** `POST`  
+**Content-Type:** `application/json`
+
+### ✅ Request Example
+```json
+{
+  "name": "Test User",
+  "email": "testuser@gmail.com",
+  "phone": "9876543210",
+  "message": "This is a message"
+}
+
+
